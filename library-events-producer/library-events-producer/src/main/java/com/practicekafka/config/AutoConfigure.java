@@ -16,7 +16,7 @@ public class AutoConfigure {
     public NewTopic createTopic(){
         return TopicBuilder.name(topicName)
                 .partitions(3)
-                .replicas(1)
+                .replicas(2)
                 .build();
     }
 
